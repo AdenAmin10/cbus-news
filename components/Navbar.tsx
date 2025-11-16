@@ -6,12 +6,11 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex items-center justify-between px-4 md:px-6 py-3">
         {/* Logo / Brand */}
         <Link href="/" className="flex items-center gap-2">
-          {/* Simple circle logo placeholder – we can swap for your PNG later */}
-          <div className="h-8 w-8 rounded-full bg-red-600 flex items-center justify-center text-xs font-bold text-white">
-            CBN
+          <div className="h-8 w-8 rounded-full bg-red-600 flex items-center justify-center text-[10px] font-bold text-white">
+            CLS
           </div>
           <span className="text-lg md:text-xl font-extrabold tracking-tight">
-            Cbus News
+            CityLine Sports
           </span>
         </Link>
 

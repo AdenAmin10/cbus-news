@@ -4,7 +4,7 @@ import FeedSection from "@/components/FeedSection";
 import { fetchFeedBySource } from "@/utils/rss";
 
 export const metadata = {
-  title: "High School Sports | Cbus News",
+  title: "High School Sports | CityLine Sports",
   description: "Central Ohio prep rankings, highlights, and recruiting buzz.",
 };
 

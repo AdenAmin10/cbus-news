@@ -4,12 +4,12 @@ import FeedSection from "@/components/FeedSection";
 import { fetchFeedBySource } from "@/utils/rss";
 
 export const metadata = {
-  title: "Columbus Blue Jackets News | Cbus News",
+  title: "Columbus Blue Jackets News | CityLine Sports",
   description: "Game recaps, roster moves, and community events from Nationwide Arena.",
 };
 
 export default async function BlueJacketsPage() {
-  const feed = await fetchFeedBySource("Blue Jackets");
+  const feed = await fetchFeedBySource("Columbus Blue Jackets");
   const featured = feed?.items[0];
   const remainingFeed = feed
     ? {

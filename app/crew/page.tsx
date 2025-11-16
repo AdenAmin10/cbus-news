@@ -4,7 +4,7 @@ import FeedSection from "@/components/FeedSection";
 import { fetchFeedBySource } from "@/utils/rss";
 
 export const metadata = {
-  title: "Columbus Crew News | Cbus News",
+  title: "Columbus Crew News | CityLine Sports",
   description: "Banner celebrations, preseason notes, and match coverage for the reigning MLS champs.",
 };
 

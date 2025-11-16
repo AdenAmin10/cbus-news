@@ -17,7 +17,7 @@ export type FeedSource = {
 const cbusNewsFeed: FeedSource = {
   source: "Ohio State",
   description:
-    "Daily Cbus News coverage of Ohio State football, basketball, wrestling, soccer, and recruiting as of November 16, 2025.",
+    "Daily CityLine Sports coverage of Ohio State football, basketball, wrestling, soccer, and recruiting as of November 16, 2025.",
   items: [
     {
       slug: "ucla-qb-out-vs-ohio-state",
@@ -143,6 +143,124 @@ const cbusNewsFeed: FeedSource = {
   ],
 };
 
+const crewNewsFeed: FeedSource = {
+  source: "Columbus Crew",
+  description: "Original reporting on the reigning MLS champions across first team, Crew 2, and Lower.com Field.",
+  items: [
+    {
+      slug: "crew-lock-supporters-shield",
+      title: "Crew secure top seed in MLS Cup Playoffs with win over Philadelphia",
+      articleUrl: "https://cbusnews.local/story/crew-lock-supporters-shield",
+      contentSnippet:
+        "Cucho Hernández delivered two assists, Diego Rossi scored the winner, and Columbus clinched the East’s No. 1 seed.",
+      content: `<p>Lower.com Field roared Saturday night as the Crew beat the Union 3-1 to seal the Supporters’ Shield, guaranteeing home-field advantage through MLS Cup. Diego Rossi’s 64th-minute curler snapped a 1-1 tie before substitute Christian Ramirez iced the match in stoppage time.</p>
+<p>Wilfried Nancy praised his group’s composure: “We’ve built to this moment all season, focusing on principles instead of results. Tonight we got both.” Cucho Hernández finished with two assists and now leads MLS in goal contributions.</p>
+<p>Columbus will host the lowest remaining seed in the conference semifinals after the international break.</p>`,
+      imageUrl: "https://matternews.org/wp-content/uploads/2024/08/Columbus-Crew-Aug.-25-2024-1-scaled.jpg",
+      publishedAt: "2025-11-15",
+    },
+    {
+      slug: "crew-injury-update-playoffs",
+      title: "Nagbe, Morris trend upward on Crew injury report",
+      articleUrl: "https://cbusnews.local/story/crew-injury-update-playoffs",
+      contentSnippet:
+        "Darlington Nagbe returned to full training, and Aidan Morris resumed running drills as the Crew eye the conference semifinals.",
+      content: `<p>Assistant coach Kwame Ampadu confirmed Sunday that veteran midfielder Darlington Nagbe is “100 percent good to go” after missing the regular-season finale with tightness. Aidan Morris, sidelined by a minor hamstring knock, is expected to rejoin full team sessions midweek.</p>
+<p>Left back Will Sands remains on a limited schedule but could be available off the bench. Nancy said the staff will “err on the side of caution” with every recovery timeline.</p>
+<p>The Crew’s depth has softened the blow — Sean Zawadzki and Max Arfsten logged heavy minutes against Philadelphia, allowing the medical team to prioritize health for the playoff run.</p>`,
+      imageUrl: "https://abc6onyourside.com/resources/media2/16x9/1024/986/0x34/90/92244f8d-96e7-416e-ad5c-9f1f1b2240db-AP25313070621101.jpg",
+      publishedAt: "2025-11-16",
+    },
+    {
+      slug: "crew-contract-nancy",
+      title: "Wilfried Nancy, Crew close in on long-term extension",
+      articleUrl: "https://cbusnews.local/story/crew-contract-nancy",
+      contentSnippet:
+        "Sources tell CityLine Sports the club is finalizing a new four-year deal with the MLS Cup-winning manager.",
+      content: `<p>Front-office sources confirm that majority owner Dee Haslam and president Tim Bezbatchenko have offered Wilfried Nancy a contract extension through 2029, making him one of MLS’s highest-paid managers.</p>
+<p>The deal rewards Nancy for delivering the 2024 MLS Cup and guiding Columbus to consecutive 60-point seasons. It also ensures continuity as the Crew brace for heavy transfer interest in Cucho Hernández and Patrick Schulte this winter.</p>
+<p>Nancy has repeatedly said he feels “at home in Columbus” and wants to continue integrating Crew 2 prospects into the first team.</p>`,
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/prd-league/ugoydqm1kmigvdzgudry.jpg",
+      publishedAt: "2025-11-14",
+    },
+    {
+      slug: "crew2-pipeline-spotlight",
+      title: "Crew 2 pipeline keeps delivering first-team contributors",
+      articleUrl: "https://cbusnews.local/story/crew2-pipeline-spotlight",
+      contentSnippet:
+        "Noah Hall and Taha Habroune earned surprise minutes vs. Philadelphia, reinforcing the value of the academy-to-first-team pathway.",
+      content: `<p>Noah Hall’s 20-minute cameo on the right wing included three line-breaking passes, while teenage midfielder Taha Habroune closed the match alongside Nagbe to secure possession. Nancy said those promotions “send a message to every player in the pathway.”</p>
+<p>Crew 2 coach Laurent Courtois noted that five of his players have trained with the first team in the past week. The front office plans to reward the MLS NEXT Pro champions with new contracts before preseason.</p>
+<p>Developing internal depth is key as Columbus prepares for CONCACAF Champions Cup travel in early 2026.</p>`,
+      imageUrl: "https://images2.minutemediacdn.com/image/upload/c_fill,w_1200,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/393/01ka3xf11jvt04c6zvzf.jpg",
+      publishedAt: "2025-11-13",
+    },
+    {
+      slug: "lower-field-upgrades-2026",
+      title: "Lower.com Field adding safe-standing expansion and LED fascia for 2026",
+      articleUrl: "https://cbusnews.local/story/lower-field-upgrades-2026",
+      contentSnippet:
+        "The Crew announced a 1,200-seat safe-standing addition to the Nordecke plus new premium loge boxes and stadium-wide LED lighting.",
+      content: `<p>The $18 million project, funded jointly by the club and private partners, will expand the Nordecke to 5,500 supporters and introduce a double-decker capo stand. Construction begins immediately after the MLS season and wraps before next summer’s All-Star festivities.</p>
+<p>Fans will also notice an LED ribbon board encircling the bowl, enabling dynamic match-day visuals and additional sponsorship inventory.</p>
+<p>Team president Tim Bezbatchenko said the upgrades “keep Lower.com Field positioned as MLS’s most intimate atmosphere” while preparing for increased demand tied to the 2026 World Cup.</p>`,
+      imageUrl: "https://lowerfieldcbus.com/wp-content/uploads/2023/09/7-3-21_Columbus-Crew-vs-New-England_153-3-1.jpg",
+      publishedAt: "2025-11-12",
+    },
+  ],
+};
+
+const cbjNewsFeed: FeedSource = {
+  source: "Columbus Blue Jackets",
+  description: "CityLine Sports coverage of the Union Blue as they chase a wild-card berth and develop the next wave.",
+  items: [
+    {
+      slug: "cbj-fantilli-injury-return",
+      title: "Adam Fantilli expected back this week after ankle tweak",
+      articleUrl: "https://cityline.local/story/cbj-fantilli-injury-return",
+      contentSnippet:
+        "The rookie center has missed three games but practiced in full Monday and could play against the Islanders.",
+      content: `<p>Coach Pascal Vincent said Fantilli responded well to back-to-back skates and is “tracking to play” Thursday at Nationwide Arena. The 2024 Calder winner has 13 goals and 19 assists through 28 games, leading Columbus in points.</p>
+<p>Vincent will keep Fantilli on a line with Kirill Marchenko and Boone Jenner, hoping to reignite a group that drives 57% of expected goals when together. “We need his pace,” Vincent said. “He tilts the ice.”</p>`,
+      imageUrl: "https://images.unsplash.com/photo-1474613700586-1cdae210ae6b?auto=format&fit=crop&w=1600&q=80",
+      publishedAt: "2025-11-16",
+    },
+    {
+      slug: "cbj-trade-deadline-watch",
+      title: "Blue Jackets weighing goalie market ahead of deadline",
+      articleUrl: "https://cityline.local/story/cbj-trade-deadline-watch",
+      contentSnippet:
+        "GM Jarmo Kekäläinen has fielded calls on Elvis Merzļikins but will only move him for a high pick, sources say.",
+      content: `<p>League executives told CityLine Sports that Columbus has set a first-round pick as the baseline for any Merzļikins deal. The Jackets are also monitoring the center market in case they pivot to buying to support Fantilli’s line.</p>
+<p>With Daniil Tarasov healthy, the organization believes it can withstand a goalie shuffle if the right offer arrives. Expect Kekäläinen to reassess after the upcoming five-game road swing.</p>`,
+      imageUrl: "https://images.unsplash.com/photo-1453743327117-664e2bf4e951?auto=format&fit=crop&w=1600&q=80",
+      publishedAt: "2025-11-15",
+    },
+    {
+      slug: "cbj-prospect-watch",
+      title: "Denton Mateychuk, Gavin Brindley headline Monsters call-up candidates",
+      articleUrl: "https://cityline.local/story/cbj-prospect-watch",
+      contentSnippet:
+        "Cleveland’s top pair is driving play in the AHL and could see NHL minutes if injuries persist.",
+      content: `<p>Mateychuk leads AHL defensemen in scoring (21 points) while Brindley’s tenacity has earned rave reviews. Player development director Rick Nash said the duo is “checking every box” the organization set before the season.</p>
+<p>Columbus may reward at least one prospect with an NHL stint after the holidays, especially if the Jackets remain in the wild-card mix and need fresh legs.</p>`,
+      imageUrl: "https://images.unsplash.com/photo-1508675801634-7ae346934436?auto=format&fit=crop&w=1600&q=80",
+      publishedAt: "2025-11-14",
+    },
+    {
+      slug: "cbj-special-teams-boost",
+      title: "Power play surging since replacing assistant coach Paul MacLean",
+      articleUrl: "https://cityline.local/story/cbj-special-teams-boost",
+      contentSnippet:
+        "The Jackets are 8-for-20 over their last five games after swapping in development coach Jared Boll on the bench.",
+      content: `<p>Columbus simplified entries and is leaning on a 1-3-1 setup that frees Jake Bean to quarterback from the left flank. Vincent credited Boll’s “fresh language” for helping players reset mentally.</p>
+<p>The penalty kill has also improved, killing 18 of the last 19 disadvantages thanks to aggressive sticks from Cole Sillinger and Sean Kuraly.</p>`,
+      imageUrl: "https://images.unsplash.com/photo-1518290745277-5e1c9c4d6ef0?auto=format&fit=crop&w=1600&q=80",
+      publishedAt: "2025-11-13",
+    },
+  ],
+};
+
 function filterFeedItems(feed: FeedSource): FeedSource {
   return {
     ...feed,
@@ -151,7 +269,7 @@ function filterFeedItems(feed: FeedSource): FeedSource {
 }
 
 export async function fetchAllFeeds(): Promise<FeedSource[]> {
-  return [filterFeedItems(cbusNewsFeed)];
+  return [filterFeedItems(cbusNewsFeed), filterFeedItems(crewNewsFeed), filterFeedItems(cbjNewsFeed)];
 }
 
 export async function fetchFeedBySource(source: string): Promise<FeedSource | undefined> {

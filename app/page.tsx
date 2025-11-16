@@ -58,7 +58,7 @@ export default async function Home() {
             Columbus · Sports
           </p>
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
-            Cbus News
+            CityLine Sports
           </h1>
           <p className="text-sm md:text-base text-zinc-600 max-w-xl leading-relaxed">
             Live Columbus sports coverage pulled from trusted sources: high school,

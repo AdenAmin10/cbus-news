@@ -74,7 +74,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
           </div>
 
           <div className="flex flex-wrap items-center gap-4 pt-6 border-t border-zinc-200 text-xs text-zinc-500">
-            <p>Cbus News original reporting covering Ohio State athletics.</p>
+            <p>CityLine Sports original reporting covering Ohio State athletics.</p>
             {story.publishedAt && (
               <p>Updated {new Date(story.publishedAt).toLocaleDateString("en-US", { month: "long", day: "numeric" })}</p>
             )}

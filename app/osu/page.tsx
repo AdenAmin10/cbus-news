@@ -4,7 +4,7 @@ import FeedSection from "@/components/FeedSection";
 import { fetchFeedBySource } from "@/utils/rss";
 
 export const metadata = {
-  title: "Ohio State Coverage | Cbus News",
+  title: "Ohio State Coverage | CityLine Sports",
   description: "Daily Ohio State football, basketball, and campus sports headlines.",
 };
 
