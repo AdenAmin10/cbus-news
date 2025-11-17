@@ -6,6 +6,7 @@ export type FeedItem = {
   content?: string;
   imageUrl?: string;
   publishedAt?: string;
+  editor?: string;
 };
 
 export type FeedSource = {
@@ -14,7 +15,7 @@ export type FeedSource = {
   items: FeedItem[];
 };
 
-const cbusNewsFeed: FeedSource = {
+const ohioStateFeed: FeedSource = {
   source: "Ohio State",
   description:
     "Daily CityLine Sports coverage of Ohio State football, basketball, wrestling, soccer, and recruiting as of November 16, 2025.",
@@ -30,6 +31,7 @@ const cbusNewsFeed: FeedSource = {
 <p>Defensive coordinator Jim Knowles said Ohio State will “crank up the pressure packages” to test Duncan immediately. The Buckeyes enter Saturday night as two-touchdown favorites and believe this development tilts the matchup further in their favor.</p>`,
       imageUrl: "https://www.dispatch.com/gcdn/authoring/authoring-images/2025/11/10/NCOD/87200734007-usatsi-27543517.jpg",
       publishedAt: "2025-11-16",
+      editor: "Evan Carlisle",
     },
     {
       slug: "osu-ucla-key-stats",
@@ -41,8 +43,10 @@ const cbusNewsFeed: FeedSource = {
 <p>Receiver Jeremiah Smith became the fastest Buckeye to 25 touchdown catches, accomplishing the feat in only 25 games (David Boston required 30). Smith now sits top-7 nationally in touchdowns (10), receptions (65), yards (862), and yards per game (~95.8).</p>
 <p>Quarterback Julian Sayin had his streak of 173 pass attempts without an interception snapped versus Purdue, yet he remains one of only two FBS passers in the last 30 years with three 300-yard, 3+ TD, 80%-completion outings in the same season.</p>
 <p>This is the first Ohio State–UCLA meeting since 2001; the all-time series is tied 4-4-1, adding extra intrigue under the lights.</p>`,
-      imageUrl: "https://www.dispatch.com/gcdn/authoring/authoring-images/2025/11/16/NCOD/87300639007-ohio-state-ucla-footbal-1115-ac-040.JPG?crop=3646,2052,x0,y189&width=660&height=371&format=pjpg&auto=webp",
+      imageUrl:
+        "https://www.dispatch.com/gcdn/authoring/authoring-images/2025/11/16/NCOD/87300639007-ohio-state-ucla-footbal-1115-ac-040.JPG?crop=3646,2052,x0,y189&width=660&height=371&format=pjpg&auto=webp",
       publishedAt: "2025-11-16",
+      editor: "Miles Porter",
     },
     {
       slug: "osu-receiver-health-updates",
@@ -53,8 +57,10 @@ const cbusNewsFeed: FeedSource = {
       content: `<p>Jeremiah Smith appeared on the pregame availability report as questionable and left mid-second quarter with a nagging lower-body issue. Ryan Day said Smith “could have gone back in” but the staff chose rest with the Buckeyes up big.</p>
 <p>Carnell Tate was held out completely after the medical staff recommended another week of recovery. Running back CJ Donaldson and offensive lineman Joshua Padilla were also listed as questionable and did not see snaps.</p>
 <p>Day emphasized confidence in the depth chart: “We played 10 receivers tonight and still found explosives. The goal is having everyone at 100% for the stretch run.” Expect Smith and Tate to be game-time decisions next week, but both are progressing.</p>`,
-      imageUrl: "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fohiostatebuckeyes.com%2Fimages%2F2025%2F11%2F15%2FA1_02147.jpg&height=800&type=webp",
+      imageUrl:
+        "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fohiostatebuckeyes.com%2Fimages%2F2025%2F11%2F15%2FA1_02147.jpg&height=800&type=webp",
       publishedAt: "2025-11-16",
+      editor: "Evan Carlisle",
     },
     {
       slug: "osu-recruiting-flips-surging",
@@ -65,8 +71,10 @@ const cbusNewsFeed: FeedSource = {
       content: `<p>November has been busy on the recruiting trail. The Buckeyes flipped four-star athlete Legend Bey (class of 2026) from Tennessee after an official visit to Columbus. Shortly after, four-star 2027 safety Eli Johnson of Texas announced his pledge.</p>
 <p>Those moves pushed Ohio State’s 2026 class back into the national top three per Yahoo Sports and 247Sports. Ryan Day credited new GM Mark Pantoni for “relentless follow-up” and noted that on-field success is resonating with families.</p>
 <p>Expect more activity over Thanksgiving weekend as Ohio State hosts multiple blue-chip visitors for the UCLA game.</p>`,
-      imageUrl: "https://images.sidearmdev.com/convert?url=https%3A%2F%2Fohiostatebuckeyes.com%2Fimages%2F2025%2F11%2F15%2F2025_11.15_UCLA011.JPG%3Fwidth%3D1024%26height%3D682&type=webp",
+      imageUrl:
+        "https://images.sidearmdev.com/convert?url=https%3A%2F%2Fohiostatebuckeyes.com%2Fimages%2F2025%2F11%2F15%2F2025_11.15_UCLA011.JPG%3Fwidth%3D1024%26height%3D682&type=webp",
       publishedAt: "2025-11-16",
+      editor: "Grant Whitfield",
     },
     {
       slug: "osu-womens-hoops-bellarmine",
@@ -77,8 +85,10 @@ const cbusNewsFeed: FeedSource = {
       content: `<p>The Buckeyes smothered Bellarmine, holding the Knights to 23% shooting while forcing 27 turnovers. Cotie McMahon (22 points) and Celeste Taylor (14 points, 6 steals) led a balanced attack.</p>
 <p>Coach Kevin McGuff said the lopsided result “let us play thirteen players and build confidence before the toughest road trip of the month.” Ohio State travels to Hartford midweek to face top-ranked UConn.</p>
 <p>McGuff believes the UConn matchup is “the perfect measuring stick” for a roster aiming to return to the Elite Eight after last season’s Sweet 16 exit.</p>`,
-      imageUrl: "https://www.cleveland.com/resizer/v2/ORG4E2WIDVEPFAESUMWQMMSR6A.jpg?auth=e80319a8ee2e822e2b3a3d1edcf60eaa8ed02923d581d446934c3f4a5a8843ff&width=1280&smart=true&quality=90",
+      imageUrl:
+        "https://www.cleveland.com/resizer/v2/ORG4E2WIDVEPFAESUMWQMMSR6A.jpg?auth=e80319a8ee2e822e2b3a3d1edcf60eaa8ed02923d581d446934c3f4a5a8843ff&width=1280&smart=true&quality=90",
       publishedAt: "2025-11-16",
+      editor: "Miles Porter",
     },
     {
       slug: "osu-wrestling-dominates-openers",
@@ -91,6 +101,7 @@ const cbusNewsFeed: FeedSource = {
 <p>The fast start keeps Ohio State entrenched in the national top five, fueling belief that this roster can push for an NCAA trophy come March.</p>`,
       imageUrl: "https://ohiostatebuckeyes.com/images/2025/3/22/0L5A8244.jpg",
       publishedAt: "2025-11-16",
+      editor: "Landon Pierce",
     },
     {
       slug: "osu-recruiting-momentum-after-ucla",
@@ -103,6 +114,7 @@ const cbusNewsFeed: FeedSource = {
 <p>“Winning in November is the best sales pitch,” recruiting director Mark Pantoni said. “Recruits saw the Shoe rocking and picture themselves in the scarlet.”</p>`,
       imageUrl: "https://www.ocregister.com/wp-content/uploads/2025/11/AP25320085301128.jpg?w=525",
       publishedAt: "2025-11-16",
+      editor: "Evan Carlisle",
     },
     {
       slug: "osu-depth-storyline",
@@ -115,6 +127,7 @@ const cbusNewsFeed: FeedSource = {
 <p>As postseason play looms, the Buckeyes believe this depth lets them withstand injuries better than most contenders.</p>`,
       imageUrl: "https://www.elevenwarriors.com/sites/default/files/styles/904x490/public/c/2025/10/158828_h.jpg",
       publishedAt: "2025-11-16",
+      editor: "Cole Matthews",
     },
     {
       slug: "osu-brand-visibility-surge",
@@ -125,8 +138,10 @@ const cbusNewsFeed: FeedSource = {
       content: `<p>Ohio State’s October-November run, capped by the UCLA rout and multiple recruiting flips, has driven top-trending threads on 247Sports and Eleven Warriors. Merchandise partners say NIL jersey sales jumped 18% week over week.</p>
 <p>Marketing staff note that national media requests for Ryan Day and Marvin Harrison Sr. (appearing on behalf of his son’s NIL foundation) doubled in the past 10 days.</p>
 <p>The heightened visibility is expected to boost December signing-day coverage and further cement Columbus as a headline destination.</p>`,
-      imageUrl: "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fohiostatebuckeyes.com%2Fimages%2F2025%2F9%2F6%2FDSC09134_GZoJx.jpg&height=800&type=webp",
+      imageUrl:
+        "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fohiostatebuckeyes.com%2Fimages%2F2025%2F9%2F6%2FDSC09134_GZoJx.jpg&height=800&type=webp",
       publishedAt: "2025-11-16",
+      editor: "Grant Whitfield",
     },
     {
       slug: "osu-maintaining-excellence",
@@ -139,11 +154,12 @@ const cbusNewsFeed: FeedSource = {
 <p>Fans and analysts alike will scrutinize whether the Buckeyes can maintain their early-season efficiency when adversity inevitably strikes.</p>`,
       imageUrl: "https://www.cottonbowl.com/images/2025/1/8/ohio-state-7-89th-Cotton-Bowl-Classic.jpg?width=1416&height=797&mode=crop&quality=80&format=jpg",
       publishedAt: "2025-11-16",
+      editor: "Evan Carlisle",
     },
   ],
 };
 
-const crewNewsFeed: FeedSource = {
+const crewFeed: FeedSource = {
   source: "Columbus Crew",
   description: "Original reporting on the reigning MLS champions across first team, Crew 2, and Lower.com Field.",
   items: [
@@ -158,6 +174,7 @@ const crewNewsFeed: FeedSource = {
 <p>Columbus will host the lowest remaining seed in the conference semifinals after the international break.</p>`,
       imageUrl: "https://matternews.org/wp-content/uploads/2024/08/Columbus-Crew-Aug.-25-2024-1-scaled.jpg",
       publishedAt: "2025-11-15",
+      editor: "Miles Porter",
     },
     {
       slug: "crew-injury-update-playoffs",
@@ -168,8 +185,9 @@ const crewNewsFeed: FeedSource = {
       content: `<p>Assistant coach Kwame Ampadu confirmed Sunday that veteran midfielder Darlington Nagbe is “100 percent good to go” after missing the regular-season finale with tightness. Aidan Morris, sidelined by a minor hamstring knock, is expected to rejoin full team sessions midweek.</p>
 <p>Left back Will Sands remains on a limited schedule but could be available off the bench. Nancy said the staff will “err on the side of caution” with every recovery timeline.</p>
 <p>The Crew’s depth has softened the blow — Sean Zawadzki and Max Arfsten logged heavy minutes against Philadelphia, allowing the medical team to prioritize health for the playoff run.</p>`,
-      imageUrl: "https://abc6onyourside.com/resources/media2/16x9/1024/986/0x34/90/92244f8d-96e7-416e-ad5c-9f1f1b2240db-AP25313070621101.jpg",
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/lc/sbpwlmoeqff3nhbnvowz.jpg",
       publishedAt: "2025-11-16",
+      editor: "Cole Matthews",
     },
     {
       slug: "crew-contract-nancy",
@@ -180,8 +198,9 @@ const crewNewsFeed: FeedSource = {
       content: `<p>Front-office sources confirm that majority owner Dee Haslam and president Tim Bezbatchenko have offered Wilfried Nancy a contract extension through 2029, making him one of MLS’s highest-paid managers.</p>
 <p>The deal rewards Nancy for delivering the 2024 MLS Cup and guiding Columbus to consecutive 60-point seasons. It also ensures continuity as the Crew brace for heavy transfer interest in Cucho Hernández and Patrick Schulte this winter.</p>
 <p>Nancy has repeatedly said he feels “at home in Columbus” and wants to continue integrating Crew 2 prospects into the first team.</p>`,
-      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/prd-league/ugoydqm1kmigvdzgudry.jpg",
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop/prd-league/ugoydqm1kmigvdzgudry.jpg",
       publishedAt: "2025-11-14",
+      editor: "Grant Whitfield",
     },
     {
       slug: "crew2-pipeline-spotlight",
@@ -192,25 +211,14 @@ const crewNewsFeed: FeedSource = {
       content: `<p>Noah Hall’s 20-minute cameo on the right wing included three line-breaking passes, while teenage midfielder Taha Habroune closed the match alongside Nagbe to secure possession. Nancy said those promotions “send a message to every player in the pathway.”</p>
 <p>Crew 2 coach Laurent Courtois noted that five of his players have trained with the first team in the past week. The front office plans to reward the MLS NEXT Pro champions with new contracts before preseason.</p>
 <p>Developing internal depth is key as Columbus prepares for CONCACAF Champions Cup travel in early 2026.</p>`,
-      imageUrl: "https://images2.minutemediacdn.com/image/upload/c_fill,w_1200,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/393/01ka3xf11jvt04c6zvzf.jpg",
+      imageUrl: "https://c.files.bbci.co.uk/0235/production/_101756500_crewfans_976.jpg",
       publishedAt: "2025-11-13",
-    },
-    {
-      slug: "lower-field-upgrades-2026",
-      title: "Lower.com Field adding safe-standing expansion and LED fascia for 2026",
-      articleUrl: "https://cbusnews.local/story/lower-field-upgrades-2026",
-      contentSnippet:
-        "The Crew announced a 1,200-seat safe-standing addition to the Nordecke plus new premium loge boxes and stadium-wide LED lighting.",
-      content: `<p>The $18 million project, funded jointly by the club and private partners, will expand the Nordecke to 5,500 supporters and introduce a double-decker capo stand. Construction begins immediately after the MLS season and wraps before next summer’s All-Star festivities.</p>
-<p>Fans will also notice an LED ribbon board encircling the bowl, enabling dynamic match-day visuals and additional sponsorship inventory.</p>
-<p>Team president Tim Bezbatchenko said the upgrades “keep Lower.com Field positioned as MLS’s most intimate atmosphere” while preparing for increased demand tied to the 2026 World Cup.</p>`,
-      imageUrl: "https://lowerfieldcbus.com/wp-content/uploads/2023/09/7-3-21_Columbus-Crew-vs-New-England_153-3-1.jpg",
-      publishedAt: "2025-11-12",
+      editor: "Landon Pierce",
     },
   ],
 };
 
-const cbjNewsFeed: FeedSource = {
+const cbjFeed: FeedSource = {
   source: "Columbus Blue Jackets",
   description: "CityLine Sports coverage of the Union Blue as they chase a wild-card berth and develop the next wave.",
   items: [
@@ -222,8 +230,9 @@ const cbjNewsFeed: FeedSource = {
         "The rookie center has missed three games but practiced in full Monday and could play against the Islanders.",
       content: `<p>Coach Pascal Vincent said Fantilli responded well to back-to-back skates and is “tracking to play” Thursday at Nationwide Arena. The 2024 Calder winner has 13 goals and 19 assists through 28 games, leading Columbus in points.</p>
 <p>Vincent will keep Fantilli on a line with Kirill Marchenko and Boone Jenner, hoping to reignite a group that drives 57% of expected goals when together. “We need his pace,” Vincent said. “He tilts the ice.”</p>`,
-      imageUrl: "https://images.unsplash.com/photo-1474613700586-1cdae210ae6b?auto=format&fit=crop&w=1600&q=80",
+      imageUrl: "https://www.dispatch.com/gcdn/presto/2022/04/29/NCOD/5fcd8f2e-d689-4bd5-b659-064c4a12c010-cbj_0428_tampa_ac_32.jpg",
       publishedAt: "2025-11-16",
+      editor: "Evan Carlisle",
     },
     {
       slug: "cbj-trade-deadline-watch",
@@ -233,8 +242,9 @@ const cbjNewsFeed: FeedSource = {
         "GM Jarmo Kekäläinen has fielded calls on Elvis Merzļikins but will only move him for a high pick, sources say.",
       content: `<p>League executives told CityLine Sports that Columbus has set a first-round pick as the baseline for any Merzļikins deal. The Jackets are also monitoring the center market in case they pivot to buying to support Fantilli’s line.</p>
 <p>With Daniil Tarasov healthy, the organization believes it can withstand a goalie shuffle if the right offer arrives. Expect Kekäläinen to reassess after the upcoming five-game road swing.</p>`,
-      imageUrl: "https://images.unsplash.com/photo-1453743327117-664e2bf4e951?auto=format&fit=crop&w=1600&q=80",
+      imageUrl: "https://s7d2.scene7.com/is/image/TWCNews/blue-jackets-ap-april122025",
       publishedAt: "2025-11-15",
+      editor: "Grant Whitfield",
     },
     {
       slug: "cbj-prospect-watch",
@@ -244,8 +254,9 @@ const cbjNewsFeed: FeedSource = {
         "Cleveland’s top pair is driving play in the AHL and could see NHL minutes if injuries persist.",
       content: `<p>Mateychuk leads AHL defensemen in scoring (21 points) while Brindley’s tenacity has earned rave reviews. Player development director Rick Nash said the duo is “checking every box” the organization set before the season.</p>
 <p>Columbus may reward at least one prospect with an NHL stint after the holidays, especially if the Jackets remain in the wild-card mix and need fresh legs.</p>`,
-      imageUrl: "https://images.unsplash.com/photo-1508675801634-7ae346934436?auto=format&fit=crop&w=1600&q=80",
+      imageUrl: "https://www.1stohiobattery.com/sites/default/files/styles/904x490/public/c/2019/10/4213_h.jpg",
       publishedAt: "2025-11-14",
+      editor: "Miles Porter",
     },
     {
       slug: "cbj-special-teams-boost",
@@ -255,8 +266,9 @@ const cbjNewsFeed: FeedSource = {
         "The Jackets are 8-for-20 over their last five games after swapping in development coach Jared Boll on the bench.",
       content: `<p>Columbus simplified entries and is leaning on a 1-3-1 setup that frees Jake Bean to quarterback from the left flank. Vincent credited Boll’s “fresh language” for helping players reset mentally.</p>
 <p>The penalty kill has also improved, killing 18 of the last 19 disadvantages thanks to aggressive sticks from Cole Sillinger and Sean Kuraly.</p>`,
-      imageUrl: "https://images.unsplash.com/photo-1518290745277-5e1c9c4d6ef0?auto=format&fit=crop&w=1600&q=80",
+      imageUrl: "https://pbs.twimg.com/media/G5127zpW8AAOHYz.jpg",
       publishedAt: "2025-11-13",
+      editor: "Cole Matthews",
     },
   ],
 };
@@ -269,7 +281,7 @@ function filterFeedItems(feed: FeedSource): FeedSource {
 }
 
 export async function fetchAllFeeds(): Promise<FeedSource[]> {
-  return [filterFeedItems(cbusNewsFeed), filterFeedItems(crewNewsFeed), filterFeedItems(cbjNewsFeed)];
+  return [filterFeedItems(ohioStateFeed), filterFeedItems(crewFeed), filterFeedItems(cbjFeed)];
 }
 
 export async function fetchFeedBySource(source: string): Promise<FeedSource | undefined> {

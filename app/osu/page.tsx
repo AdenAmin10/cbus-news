@@ -19,51 +19,55 @@ export default async function OhioStatePage() {
     : undefined;
 
   return (
-    <main className="max-w-5xl mx-auto px-4 md:px-6 py-10 space-y-8">
-      <header className="space-y-3">
-        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-red-600">
-          Scarlet & Gray
-        </p>
-        <h1 className="text-4xl font-extrabold tracking-tight">Ohio State Sports</h1>
-        <p className="text-sm md:text-base text-zinc-600 max-w-2xl">
-          In-depth Buckeye football notes, basketball rankings, and crossover stories spanning the entire athletic department.
-        </p>
-      </header>
+    <main className="w-full bg-gradient-to-b from-zinc-50 via-white to-zinc-100">
+      <section className="max-w-6xl mx-auto px-4 md:px-8 py-10 space-y-10">
+        <header className="space-y-3">
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-red-600">Scarlet & Gray</p>
+          <h1 className="text-4xl md:text-5xl font-black tracking-tight">Ohio State Sports</h1>
+          <p className="text-sm md:text-base text-zinc-600 max-w-3xl">
+            In-depth Buckeye football notes, basketball rankings, and crossover stories spanning the entire athletic department.
+          </p>
+        </header>
 
-      {featured && (
-        <Link
-          href={`/story/${featured.slug}`}
-          className="block rounded-2xl border border-zinc-200 shadow-sm overflow-hidden hover:shadow-md transition"
-        >
-          {featured.imageUrl && (
-            <div className="relative w-full aspect-[16/8] bg-zinc-100">
-              <Image
-                src={featured.imageUrl}
-                alt={featured.title}
-                fill
-                sizes="(max-width: 1024px) 100vw, 768px"
-                unoptimized
-                className="object-cover"
-              />
+        {featured && (
+          <Link
+            href={`/story/${featured.slug}`}
+            className="block rounded-3xl border border-zinc-200 shadow-lg overflow-hidden bg-black text-white"
+          >
+            {featured.imageUrl && (
+              <div className="relative w-full aspect-[16/7]">
+                <Image
+                  src={featured.imageUrl}
+                  alt={featured.title}
+                  fill
+                  sizes="100vw"
+                  unoptimized
+                  className="object-cover opacity-80"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent" />
+              </div>
+            )}
+            <div className="p-6 md:p-10 space-y-4">
+              <p className="text-xs uppercase tracking-[0.4em] text-red-400">Feature</p>
+              <h2 className="text-3xl md:text-4xl font-black">{featured.title}</h2>
+              <p className="text-sm md:text-base text-white/80 max-w-3xl">
+                {featured.contentSnippet || "Tap to read the full update."}
+              </p>
+              <span className="inline-flex items-center text-xs font-semibold bg-white px-4 py-2 rounded-full w-fit !text-zinc-900">
+                Read full story <span className="ml-2" aria-hidden="true">→</span>
+              </span>
             </div>
-          )}
-          <div className="p-6 md:p-8 space-y-3">
-            <p className="text-xs uppercase tracking-[0.3em] text-red-600">Feature</p>
-            <h2 className="text-3xl font-bold">{featured.title}</h2>
-            <p className="text-sm text-zinc-600">
-              {featured.contentSnippet || "Tap to read the full update."}
-            </p>
-          </div>
-        </Link>
-      )}
+          </Link>
+        )}
 
-      {remainingFeed && remainingFeed.items.length > 0 ? (
-        <FeedSection feed={remainingFeed} />
-      ) : feed ? (
-        <p className="text-sm text-zinc-500">More Buckeye headlines will be added soon.</p>
-      ) : (
-        <p className="text-sm text-zinc-500">No Ohio State stories available right now.</p>
-      )}
+        {remainingFeed && remainingFeed.items.length > 0 ? (
+          <FeedSection feed={remainingFeed} />
+        ) : feed ? (
+          <p className="text-sm text-zinc-500">More Buckeye headlines will be added soon.</p>
+        ) : (
+          <p className="text-sm text-zinc-500">No Ohio State stories available right now.</p>
+        )}
+      </section>
     </main>
   );
 }

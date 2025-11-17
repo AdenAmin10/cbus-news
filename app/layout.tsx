@@ -40,14 +40,14 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <p className="font-semibold text-zinc-900 mb-2">Contact</p>
                 <p>
                   Editorial tips:{" "}
-                  <a href="mailto:tips@cbusnews.local" className="text-red-600 hover:underline">
-                    tips@cbusnews.local
+                  <a href="mailto:tips@citylinesports.com" className="text-red-600 hover:underline">
+                    tips@citylinesports.com
                   </a>
                 </p>
                 <p>
                   Partnerships:{" "}
-                  <a href="mailto:partners@cbusnews.local" className="text-red-600 hover:underline">
-                    partners@cbusnews.local
+                  <a href="mailto:partners@citylinesports.com" className="text-red-600 hover:underline">
+                    partners@citylinesports.com
                   </a>
                 </p>
               </div>
