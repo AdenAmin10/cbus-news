@@ -14,7 +14,7 @@ export default function NewsCard({ item, source }: NewsCardProps) {
     : null;
 
   return (
-    <article className="group flex flex-col bg-white border border-zinc-200 rounded-2xl overflow-hidden shadow hover:shadow-lg transition">
+    <article className="group flex flex-col bg-white border border-zinc-200 overflow-hidden shadow transition hover:shadow-xl">
       <Link href={internalHref} className="flex flex-col h-full">
         {item.imageUrl && (
           <div className="relative h-48 w-full">
@@ -43,7 +43,7 @@ export default function NewsCard({ item, source }: NewsCardProps) {
             {item.contentSnippet?.slice(0, 220) || "Tap to read the full update."}
           </p>
           <div className="flex items-center justify-between text-xs text-zinc-500">
-            <span>By {item.editor ?? "CityLine Sports Desk"}</span>
+          <span>By {item.editor ?? "CityLine Sports Desk"}</span>
             {published && <span>{published}</span>}
           </div>
           <span className="inline-flex items-center text-xs font-semibold text-black group-hover:text-red-600">

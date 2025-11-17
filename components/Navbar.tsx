@@ -18,9 +18,9 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-6 text-sm font-medium text-zinc-700">
           <Link href="/" className="hover:text-red-600 transition">Home</Link>
           <Link href="/osu" className="hover:text-red-600 transition">Ohio State</Link>
-          <Link href="/highschool" className="hover:text-red-600 transition">High School</Link>
           <Link href="/crew" className="hover:text-red-600 transition">Crew</Link>
           <Link href="/cbj" className="hover:text-red-600 transition">Blue Jackets</Link>
+          <Link href="/contact" className="hover:text-red-600 transition">Contact</Link>
         </div>
       </div>
     </nav>

@@ -31,7 +31,7 @@ export default function TopStoriesCarousel({ stories }: { stories: CarouselStory
   const current = validStories[index];
 
   return (
-    <div className="relative w-full h-[420px] md:h-[520px] overflow-hidden rounded-3xl border border-zinc-800 bg-black text-white shadow-2xl">
+    <div className="relative w-full min-h-[80vh] overflow-hidden bg-black text-white">
       <Image
         src={current.imageUrl!}
         alt={current.title}
@@ -47,14 +47,14 @@ export default function TopStoriesCarousel({ stories }: { stories: CarouselStory
           <span className="bg-red-600/80 px-3 py-1 rounded-full">Top Story</span>
           {current.source && <span className="text-white/70">{current.source}</span>}
         </div>
-        <div className="space-y-5 max-w-2xl">
-          <h1 className="text-3xl md:text-5xl font-black leading-tight">{current.title}</h1>
-          <p className="text-sm md:text-base text-white/80 line-clamp-3">
+        <div className="space-y-5 max-w-3xl">
+          <h1 className="text-4xl md:text-6xl font-black leading-tight text-white">{current.title}</h1>
+          <p className="text-base md:text-lg text-white/90 line-clamp-3">
             {current.contentSnippet || "Tap through to read the latest reporting."}
           </p>
           <Link
             href={`/story/${current.slug}`}
-            className="inline-flex items-center gap-3 bg-white text-zinc-900 px-5 py-3 rounded-full font-semibold w-fit shadow hover:bg-red-500 hover:text-white transition"
+            className="inline-flex items-center gap-3 bg-red-600 text-white px-7 py-3 font-semibold w-fit hover:bg-red-500 transition"
           >
             Read Full Story <span aria-hidden="true">→</span>
           </Link>

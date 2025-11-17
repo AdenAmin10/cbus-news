@@ -20,58 +20,42 @@ export default async function StoryPage({ params }: StoryPageProps) {
   const storyBody = story.content ?? story.contentSnippet ?? "No preview available.";
 
   return (
-    <main className="w-full bg-gradient-to-b from-zinc-50 via-white to-zinc-100">
-      <section className="max-w-3xl mx-auto px-4 md:px-6 py-10 space-y-6">
-        <Link
-          href="/"
-          className="text-sm text-zinc-600 hover:text-red-600 transition inline-flex items-center gap-2"
-        >
+    <main className="w-full bg-white">
+      {story.imageUrl && (
+        <section className="w-full bg-black text-white">
+          <div className="relative w-full min-h-[80vh]">
+            <Image src={story.imageUrl} alt={story.title} fill sizes="100vw" unoptimized className="object-cover opacity-80" />
+            <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent" />
+            <div className="absolute inset-0 p-6 md:p-12 flex flex-col justify-end space-y-3">
+              <p className="text-xs uppercase tracking-[0.3em] text-red-400">{story.source}</p>
+              <h1 className="text-4xl md:text-6xl font-black leading-tight text-white">{story.title}</h1>
+              <p className="text-sm text-white/80">
+                By {story.editor ?? "CityLine Sports Desk"}
+                {story.publishedAt && (
+                  <span>
+                    {" "}
+                    ·{" "}
+                    {new Date(story.publishedAt).toLocaleDateString("en-US", { month: "long", day: "numeric" })}
+                  </span>
+                )}
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
+
+      <section className="max-w-4xl mx-auto px-4 md:px-8 py-10 space-y-6">
+        <Link href="/" className="text-sm text-zinc-600 hover:text-red-600 transition inline-flex items-center gap-2">
           <span aria-hidden="true">←</span>
           Back to feeds
         </Link>
 
-        <article className="bg-white rounded-3xl border border-zinc-200 shadow-xl overflow-hidden">
-          {story.imageUrl && (
-            <div className="relative w-full aspect-[16/7]">
-              <Image
-                src={story.imageUrl}
-                alt={story.title}
-                fill
-                sizes="100vw"
-                unoptimized
-                className="object-cover"
-              />
-            </div>
+        <article className="prose prose-zinc max-w-none text-lg leading-relaxed">
+          {story.content ? (
+            <div dangerouslySetInnerHTML={{ __html: storyBody }} />
+          ) : (
+            <p>{storyBody}</p>
           )}
-
-          <div className="p-6 md:p-10 space-y-6">
-            <div className="space-y-2">
-              <p className="text-xs uppercase tracking-[0.3em] text-red-600">{story.source}</p>
-              <h1 className="text-3xl md:text-4xl font-black leading-tight">
-                {story.title}
-              </h1>
-              <p className="text-sm text-zinc-500">
-                By {story.editor ?? "CityLine Sports Desk"}
-              </p>
-              {story.publishedAt && (
-                <p className="text-xs text-zinc-500">
-                  Updated {new Date(story.publishedAt).toLocaleDateString("en-US", { month: "long", day: "numeric" })}
-                </p>
-              )}
-            </div>
-
-            <div className="prose prose-zinc max-w-none">
-              {story.content ? (
-                <div dangerouslySetInnerHTML={{ __html: storyBody }} />
-              ) : (
-                <p>{storyBody}</p>
-              )}
-            </div>
-
-            <div className="pt-6 border-t border-zinc-200 text-xs text-zinc-500">
-              <p>CityLine Sports original reporting covering Columbus athletics.</p>
-            </div>
-          </div>
         </article>
       </section>
     </main>
