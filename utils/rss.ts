@@ -21,6 +21,20 @@ const ohioStateFeed: FeedSource = {
     "Daily CityLine Sports coverage of Ohio State football, basketball, wrestling, soccer, and recruiting as of November 16, 2025.",
   items: [
     {
+      slug: "osu-notre-dame-statement-win",
+      title: "Ohio State outlasts Notre Dame in statement win behind late surge",
+      articleUrl: "https://cbusnews.local/story/osu-notre-dame-statement-win",
+      contentSnippet:
+        "Buckeye guards closed strong as Ohio State beat Notre Dame at the Schottenstein Center, delivering timely defense and clutch scoring down the stretch.",
+      content: `<p>Ohio State leaned on its backcourt toughness to outlast Notre Dame in a marquee nonconference showdown. The first half was a tug-of-war, with neither team leading by more than six. Notre Dame’s precision offense forced the Buckeyes to stay locked in, while Jake Diebler’s squad answered with athleticism and perimeter shot-making.</p>
+<p>Coming out of halftime, improved ball movement unlocked a 9-0 run fueled by transition finishes and downhill drives. The Fighting Irish hit timely threes to stay close, but Ohio State’s defense tightened, closing driving lanes and cleaning the glass.</p>
+<p>With under three minutes to play, the Buckeye guards seized control. A pull-up jumper, followed by a steal and layup, gave Ohio State a two-possession cushion it never relinquished. Diebler praised the composure: “Notre Dame is disciplined. You have to stay locked in for 40 minutes. I’m proud of how our guys answered every punch.”</p>
+<p>The win showcases Ohio State’s growing chemistry and sets the tone as Big Ten play nears.</p>`,
+      imageUrl: "https://www.dispatch.com/gcdn/authoring/authoring-images/2025/11/16/NCOD/87308498007-ohio-state-notre-dame-basketball-ac-012.JPG?width=700&height=467&fit=crop&format=pjpg&auto=webp",
+      publishedAt: "2025-11-17",
+      editor: "Nick Wright",
+    },
+    {
       slug: "ucla-qb-out-vs-ohio-state",
       title: "UCLA QB Nico Iamaleava ruled out; Buckeyes prepare for backup Luke Duncan",
       articleUrl: "https://cbusnews.local/story/ucla-qb-out-vs-ohio-state",
@@ -31,7 +45,7 @@ const ohioStateFeed: FeedSource = {
 <p>Defensive coordinator Jim Knowles said Ohio State will “crank up the pressure packages” to test Duncan immediately. The Buckeyes enter Saturday night as two-touchdown favorites and believe this development tilts the matchup further in their favor.</p>`,
       imageUrl: "https://www.dispatch.com/gcdn/authoring/authoring-images/2025/11/10/NCOD/87200734007-usatsi-27543517.jpg",
       publishedAt: "2025-11-16",
-      editor: "Evan Carlisle",
+      editor: "Nick Wright",
     },
     {
       slug: "osu-ucla-key-stats",
@@ -60,7 +74,7 @@ const ohioStateFeed: FeedSource = {
       imageUrl:
         "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fohiostatebuckeyes.com%2Fimages%2F2025%2F11%2F15%2FA1_02147.jpg&height=800&type=webp",
       publishedAt: "2025-11-16",
-      editor: "Evan Carlisle",
+      editor: "Nick Wright",
     },
     {
       slug: "osu-recruiting-flips-surging",
@@ -86,7 +100,7 @@ const ohioStateFeed: FeedSource = {
 <p>Coach Kevin McGuff said the lopsided result “let us play thirteen players and build confidence before the toughest road trip of the month.” Ohio State travels to Hartford midweek to face top-ranked UConn.</p>
 <p>McGuff believes the UConn matchup is “the perfect measuring stick” for a roster aiming to return to the Elite Eight after last season’s Sweet 16 exit.</p>`,
       imageUrl:
-        "https://www.cleveland.com/resizer/v2/ORG4E2WIDVEPFAESUMWQMMSR6A.jpg?auth=e80319a8ee2e822e2b3a3d1edcf60eaa8ed02923d581d446934c3f4a5a8843ff&width=1280&smart=true&quality=90",
+        "https://www.dispatch.com/gcdn/presto/2023/01/08/NCOD/ffef4a49-8baa-44b1-83cb-9ae1bb584b17-basketball-_ceb_wbk_illinois-illinois_at_ohio_state_js_0021.jpg",
       publishedAt: "2025-11-16",
       editor: "Miles Porter",
     },
@@ -114,7 +128,7 @@ const ohioStateFeed: FeedSource = {
 <p>“Winning in November is the best sales pitch,” recruiting director Mark Pantoni said. “Recruits saw the Shoe rocking and picture themselves in the scarlet.”</p>`,
       imageUrl: "https://www.ocregister.com/wp-content/uploads/2025/11/AP25320085301128.jpg?w=525",
       publishedAt: "2025-11-16",
-      editor: "Evan Carlisle",
+      editor: "Nick Wright",
     },
     {
       slug: "osu-depth-storyline",
@@ -154,7 +168,7 @@ const ohioStateFeed: FeedSource = {
 <p>Fans and analysts alike will scrutinize whether the Buckeyes can maintain their early-season efficiency when adversity inevitably strikes.</p>`,
       imageUrl: "https://www.cottonbowl.com/images/2025/1/8/ohio-state-7-89th-Cotton-Bowl-Classic.jpg?width=1416&height=797&mode=crop&quality=80&format=jpg",
       publishedAt: "2025-11-16",
-      editor: "Evan Carlisle",
+      editor: "Nick Wright",
     },
   ],
 };
@@ -232,7 +246,7 @@ const cbjFeed: FeedSource = {
 <p>Vincent will keep Fantilli on a line with Kirill Marchenko and Boone Jenner, hoping to reignite a group that drives 57% of expected goals when together. “We need his pace,” Vincent said. “He tilts the ice.”</p>`,
       imageUrl: "https://www.dispatch.com/gcdn/presto/2022/04/29/NCOD/5fcd8f2e-d689-4bd5-b659-064c4a12c010-cbj_0428_tampa_ac_32.jpg",
       publishedAt: "2025-11-16",
-      editor: "Evan Carlisle",
+      editor: "Nick Wright",
     },
     {
       slug: "cbj-trade-deadline-watch",

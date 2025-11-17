@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -13,9 +14,51 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
 });
 
-export const metadata = {
-  title: "CityLine Sports",
-  description: "Columbus sports news hub",
+export const metadata: Metadata = {
+  metadataBase: new URL("https://citylinesports.com"),
+  title: {
+    default: "CityLine Sports",
+    template: "%s | CityLine Sports",
+  },
+  description: "CityLine Sports delivers Columbus sports headlines across Ohio State, Crew, and Blue Jackets.",
+  keywords: [
+    "Columbus sports",
+    "CityLine Sports",
+    "Ohio State news",
+    "Columbus Crew",
+    "Blue Jackets",
+  ],
+  authors: [{ name: "CityLine Sports" }],
+  openGraph: {
+    title: "CityLine Sports",
+    description: "Live Columbus sports news: Ohio State, Crew, Blue Jackets, and more.",
+    url: "https://citylinesports.com",
+    siteName: "CityLine Sports",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        url: "https://citylinesports.com/cityline-favicon.svg",
+        width: 1200,
+        height: 630,
+        alt: "CityLine Sports",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CityLine Sports",
+    description: "Columbus sports coverage: Ohio State, Crew, Blue Jackets.",
+    images: ["https://citylinesports.com/cityline-favicon.svg"],
+  },
+  icons: {
+    icon: "/cityline-favicon.svg",
+    shortcut: "/cityline-favicon.svg",
+    apple: "/cityline-favicon.svg",
+  },
+  alternates: {
+    canonical: "https://citylinesports.com",
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
