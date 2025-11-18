@@ -62,11 +62,36 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
+  const organizationJson = {
+    "@context": "https://schema.org",
+    "@type": "NewsMediaOrganization",
+    name: "CityLine Sports",
+    url: "https://citylinesports.com",
+    logo: "https://citylinesports.com/cityline-favicon.svg",
+    sameAs: [
+      "https://www.linkedin.com/company/citylinesports",
+      "https://twitter.com/citylinesports",
+      "https://www.instagram.com/citylinesports",
+    ],
+    founder: "CityLine Media LLC",
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        contactType: "editorial",
+        email: "tips@citylinesports.com",
+      },
+    ],
+  };
+
   return (
     <html lang="en" className="bg-[var(--surface-bg)]">
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-[var(--surface-bg)] text-zinc-900 antialiased`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJson) }}
+        />
         <div className="min-h-screen flex flex-col">
           <Navbar />
           <div className="flex-1 w-full bg-white">{children}</div>
@@ -93,10 +118,23 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                     partners@citylinesports.com
                   </a>
                 </p>
+                <p>
+                  Credentials:{" "}
+                  <a href="mailto:credentials@citylinesports.com" className="text-red-600 hover:underline">
+                    credentials@citylinesports.com
+                  </a>
+                </p>
               </div>
-              <div>
-                <p className="font-semibold text-zinc-900 mb-2">Follow</p>
-                <p>LinkedIn · X · Instagram</p>
+              <div className="space-y-2">
+                <p className="font-semibold text-zinc-900">Policies</p>
+                <div className="flex flex-col text-sm text-zinc-600">
+                  <a href="/about" className="hover:text-red-600">About</a>
+                  <a href="/ethics" className="hover:text-red-600">Code of Ethics</a>
+                  <a href="/corrections" className="hover:text-red-600">Corrections</a>
+                  <a href="/terms" className="hover:text-red-600">Terms of Service</a>
+                  <a href="/privacy" className="hover:text-red-600">Privacy Policy</a>
+                  <a href="/credentials" className="hover:text-red-600">Credential Requests</a>
+                </div>
                 <p className="text-xs mt-3">© {new Date().getFullYear()} CityLine Sports. All rights reserved.</p>
               </div>
             </div>

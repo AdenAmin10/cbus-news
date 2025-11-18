@@ -20,6 +20,7 @@ export default function Navbar() {
           <Link href="/osu" className="hover:text-red-600 transition">Ohio State</Link>
           <Link href="/crew" className="hover:text-red-600 transition">Crew</Link>
           <Link href="/cbj" className="hover:text-red-600 transition">Blue Jackets</Link>
+          <Link href="/about" className="hover:text-red-600 transition">About</Link>
           <Link href="/contact" className="hover:text-red-600 transition">Contact</Link>
         </div>
       </div>
