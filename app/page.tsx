@@ -20,11 +20,22 @@ export default async function Home() {
     )
     .filter((item) => item.imageUrl);
 
-  const topStories = [...flattenedStories].sort((a, b) => {
+  const sortedStories = [...flattenedStories].sort((a, b) => {
     const dateA = new Date(a.publishedAt ?? "").getTime();
     const dateB = new Date(b.publishedAt ?? "").getTime();
     return dateB - dateA;
   });
+
+  const topBySection = new Map<string, typeof sortedStories[number]>();
+  for (const story of sortedStories) {
+    if (!topBySection.has(story.source)) {
+      topBySection.set(story.source, story);
+    }
+  }
+
+  const prioritizedStories = Array.from(topBySection.values());
+  const remainingStories = sortedStories.filter((story) => !topBySection.has(story.source) || topBySection.get(story.source) !== story);
+  const topStories = [...prioritizedStories, ...remainingStories].slice(0, 5);
 
   const carouselStories = topStories.slice(0, 5);
   const tickerStories = topStories.slice(0, 8);

@@ -26,5 +26,17 @@ export async function fetchLatestScores(): Promise<ScoreRow[]> {
       away: { name: "UCLA", score: 17 },
       status: "Final",
     },
+    {
+      league: "NFL",
+      home: { name: "Cleveland Browns", score: 27 },
+      away: { name: "Baltimore Ravens", score: 23 },
+      status: "Final",
+    },
+    {
+      league: "NBA",
+      home: { name: "Cleveland Cavaliers", score: 112 },
+      away: { name: "Detroit Pistons", score: 105 },
+      status: "Final",
+    },
   ];
 }
