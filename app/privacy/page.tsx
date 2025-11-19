@@ -24,8 +24,8 @@ export default function PrivacyPage() {
         <div className="space-y-3">
           <h2 className="text-xl font-semibold text-zinc-900">Reader Submissions</h2>
           <p>
-            Tips, corrections, and credential requests submitted through forms are routed to our editorial inbox. We retain
-            submissions for up to one year for quality assurance.
+            Tips and corrections submitted through forms are routed to our editorial inbox. We retain submissions for up to
+            one year for quality assurance.
           </p>
         </div>
         <p>

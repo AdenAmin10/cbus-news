@@ -240,7 +240,7 @@ const crewFeed: FeedSource = {
 <p>Veteran Darlington Nagbe told CityLine Sports the team feels “calm and clear” about what’s needed tactically. Video review highlighted how controlling second balls out of midfield remains the top priority.</p>
 <p>Travel logistics are already underway; the Crew won’t know their opponent until the Wild Card round concludes, but the club has charter contingencies booked for both Orlando and Atlanta.</p>
 <p>Supporters groups are organizing a send-off at the airport regardless of location, another sign of the city’s belief that Columbus can repeat as champions.</p>`,
-      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/null/eqwqgiioeed2yb2zo0qq.jpg",
+      imageUrl: "https://npr.brightspotcdn.com/e3/99/48a58223477e90cc98256e3a3270/columbus-crew-cucho-hernandez-042724-ap.jpg",
       publishedAt: "2023-11-18",
       editor: "Miles Porter",
     },
@@ -255,7 +255,7 @@ const crewFeed: FeedSource = {
 <p>The striker is also mentoring academy forwards by showing how to read body language from defenders, noting when a shoulder drops or a head swivels away from the ball.</p>
 <p>Nancy appreciates the professionalism: “It’s not easy to accept reduced minutes after a career of starting, but Christian’s humility has lifted the locker room.”</p>
 <p>The Crew plan to keep Ramirez’s minutes in the 20-25 range per match, ensuring he’s fresh to capitalize on playoff chaos.</p>`,
-      imageUrl: "https://matternews.org/wp-content/uploads/2024/09/ramirez-celebration-1.jpg",
+      imageUrl: "https://s7d2.scene7.com/is/image/TWCNews/AP_25096030973696",
       publishedAt: "2023-11-17",
       editor: "Nick Wright",
     },
@@ -270,7 +270,7 @@ const crewFeed: FeedSource = {
 <p>Nutritionists from OhioHealth also handed out snack guides, teaching families how to prep matchday meals without breaking the budget.</p>
 <p>The club logged more than 400 volunteer hours during the tour, and plans to expand to Marion and Delaware counties next spring.</p>
 <p>“Community is a pillar for us,” president Tim Bezbatchenko said. “Clinics remind us that the Crew’s reach is bigger than Lower.com Field.”</p>`,
-      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/col/image/upload/v1656726020/prd-league/f6coxdjqr37j4a0uij6h.jpg",
+      imageUrl: "https://www.dispatch.com/gcdn/presto/2021/05/27/NCOD/b8cf093c-9cbb-4e44-9667-b2579800b1c2-CEB_CCS_CREW_BJP_10.jpg?width=700&height=478&fit=crop&format=pjpg&auto=webp",
       publishedAt: "2023-11-15",
       editor: "Grant Whitfield",
     },
@@ -285,7 +285,7 @@ const crewFeed: FeedSource = {
 <p>Fans touring the site can already see how the double-decker capo stand will improve sightlines and atmosphere.</p>
 <p>Bezbatchenko noted that accessibility was factored in: “We built dedicated ramp access for supporters with mobility needs, ensuring everyone gets the same vantage point.”</p>
 <p>The project should wrap before the annual “Black & Gold Week” celebration in March, when the club plans a public unveiling.</p>`,
-      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/col/image/upload/v1645453855/prd-league/emipqdzjqj6ys3jt6lyv.jpg",
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop/mls-clb-prd/uhoy847mhycbfgi0ujlu.jpg",
       publishedAt: "2023-11-14",
       editor: "Landon Pierce",
     },
@@ -300,7 +300,7 @@ const crewFeed: FeedSource = {
 <p>The staff also invites academy keeper Stanislav Lapkes into sessions to maintain the developmental pipeline.</p>
 <p>Nancy praised the group’s selflessness: “No one is worried about individual accolades. The room’s focus is keeping clean sheets when it matters.”</p>
 <p>Columbus will continue rotating in training but expects Schulte to start every playoff match barring injury.</p>`,
-      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/col/image/upload/v1652308787/prd-league/m7p4n4srlir956lk6zbl.jpg",
+      imageUrl: "https://www.dispatch.com/gcdn/presto/2023/04/16/NCOD/e80cf1b0-c913-41ac-960c-2e8d515b8a05-MLS-_ceb_crew_new_england-New_England_at_Crew_js_0008.jpg?crop=2111,1188,x0,y107&width=2111&height=1188&format=pjpg&auto=webp",
       publishedAt: "2023-11-13",
       editor: "Miles Porter",
     },
@@ -315,7 +315,7 @@ const crewFeed: FeedSource = {
 <p>Sillah’s pace caught the eye of first-team staffers, while Rinehart’s overlapping runs and defensive recovery speed fit Nancy’s system.</p>
 <p>Luna has drawn comparisons to Aidan Morris because of his two-way engine and leadership; he captained Columbus to a 3-2 comeback win in the final scrimmage.</p>
 <p>The Crew plan to bring all three players to first-team preseason in January for further evaluation.</p>`,
-      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/default/6b08otqrp253yayzvea4.jpg",
+      imageUrl: "https://www.dispatch.com/gcdn/authoring/authoring-images/2025/02/23/NCOD/79713161007-crew-0222-fire-ac-026.JPG?crop=4499,2531,x0,y300&width=660&height=372&format=pjpg&auto=webp",
       publishedAt: "2023-11-12",
       editor: "Grant Whitfield",
     },
@@ -330,7 +330,7 @@ const crewFeed: FeedSource = {
 <p>Head coach Wilfried Nancy will also appear at two events, sharing tactical insights and highlighting how supporters influence the atmosphere.</p>
 <p>Ticket packages go on sale next week, with partial proceeds benefiting the Crew Foundation’s literacy efforts.</p>
 <p>The schedule underscores Columbus’ ambition to remain a destination club during the offseason, keeping fans engaged even when MLS play pauses.</p>`,
-      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/col/image/upload/prd-league/scuglcqnmwtwz7nxuchen.jpg",
+      imageUrl: "https://images2.minutemediacdn.com/image/upload/c_crop,w_2948,h_1658,x_0,y_240/images/ImagnImages/mmsport/324/01je9kcxrsav2x6md30g",
       publishedAt: "2023-11-11",
       editor: "Landon Pierce",
     },
@@ -345,7 +345,7 @@ const crewFeed: FeedSource = {
 <p>Organizers say the event will become an annual staple, reflecting the supporters’ desire to impact Columbus beyond matchday.</p>
 <p>“We want to show that the same passion we bring to the stands can lift our neighbors,” said Nordecke president Blake Reiber.</p>
 <p>Distribution begins next week through local schools and youth centers, timed to the first significant cold snap.</p>`,
-      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/default/zcwzt1nldufrovrtz3tw.jpg",
+      imageUrl: "https://images.mlssoccer.com/image/private/t_photogallery_3x/mls-clb/eahmqwn7h4iercubvwap.jpg",
       publishedAt: "2023-11-10",
       editor: "Miles Porter",
     },
@@ -360,7 +360,7 @@ const crewFeed: FeedSource = {
 <p>Nancy praised the defender’s professionalism: “Jo’s leadership off the pitch is as valuable as his minutes on it. He keeps standards high even while rehabbing.”</p>
 <p>The Crew aren’t rushing his return given the depth at center back, but coaches are encouraged by his progress.</p>
 <p>Mensah plans to mentor younger defenders during the offseason, sharing video breakdowns and positional tips.</p>`,
-      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/default/xa5kwegdfy6htzrfwm2r.jpg",
+      imageUrl: "https://s.yimg.com/ny/api/res/1.2/NZqTjwKtf._I4yHv8Q5KbQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNztjZj13ZWJw/https://media.zenfs.com/en/the-columbus-dispatch/cf74c841347f4647f039f509362ab810",
       publishedAt: "2023-11-09",
       editor: "Grant Whitfield",
     },
@@ -375,7 +375,7 @@ const crewFeed: FeedSource = {
 <p>“Little things like blackout curtains and limiting screen time make a big difference,” Mangan said.</p>
 <p>The staff is compiling data from wearable tech to improve future travel schedules, hoping to shave down fatigue when back-to-back road matches are unavoidable.</p>
 <p>Nancy believes these marginal gains help Columbus close games stronger, especially in the final ten minutes.</p>`,
-      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/default/uj2hkjvkhgxz5rl7tuem.jpg",
+      imageUrl: "https://www.dispatch.com/gcdn/authoring/authoring-images/2023/12/03/NCOD/71786497007-microsoft-teamsimage.png?width=660&height=442&fit=crop&format=pjpg&auto=webp",
       publishedAt: "2023-11-08",
       editor: "Landon Pierce",
     },

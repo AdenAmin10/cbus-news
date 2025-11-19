@@ -41,9 +41,8 @@ export default function AboutPage() {
         <div className="space-y-3 text-sm text-zinc-600">
           <h2 className="text-2xl font-semibold text-zinc-900">Press & Partnerships</h2>
           <p>
-            Looking to collaborate, request media credentials, or invite us to cover an event? Email
-            <a href="mailto:partners@citylinesports.com" className="text-red-600"> partners@citylinesports.com</a>
-            or visit our credentials page for guidelines.
+            Looking to collaborate or invite us to cover an event? Email
+            <a href="mailto:partners@citylinesports.com" className="text-red-600"> partners@citylinesports.com</a>.
           </p>
         </div>
       </section>

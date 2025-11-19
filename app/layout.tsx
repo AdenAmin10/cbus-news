@@ -118,12 +118,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                     partners@citylinesports.com
                   </a>
                 </p>
-                <p>
-                  Credentials:{" "}
-                  <a href="mailto:credentials@citylinesports.com" className="text-red-600 hover:underline">
-                    credentials@citylinesports.com
-                  </a>
-                </p>
               </div>
               <div className="space-y-2">
                 <p className="font-semibold text-zinc-900">Policies</p>
@@ -133,7 +127,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   <a href="/corrections" className="hover:text-red-600">Corrections</a>
                   <a href="/terms" className="hover:text-red-600">Terms of Service</a>
                   <a href="/privacy" className="hover:text-red-600">Privacy Policy</a>
-                  <a href="/credentials" className="hover:text-red-600">Credential Requests</a>
                 </div>
                 <p className="text-xs mt-3">© {new Date().getFullYear()} CityLine Sports. All rights reserved.</p>
               </div>
