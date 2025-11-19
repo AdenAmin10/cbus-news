@@ -8,7 +8,8 @@ const sectionLinks: Record<string, string> = {
   "Columbus Blue Jackets": "/cbj",
 };
 
-export default function FeedSection({ feed }: { feed: FeedSource }) {
+export default function FeedSection({ feed, limit }: { feed: FeedSource; limit?: number }) {
+  const items = limit ? feed.items.slice(0, limit) : feed.items;
   return (
     <section className="border-t border-b border-zinc-200 py-12 px-4 md:px-8 space-y-6">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
@@ -30,7 +31,7 @@ export default function FeedSection({ feed }: { feed: FeedSource }) {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {feed.items.map((item) => (
+        {items.map((item) => (
           <NewsCard key={item.slug} item={item} source={feed.source} />
         ))}
       </div>

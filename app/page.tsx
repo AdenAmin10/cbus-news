@@ -79,7 +79,7 @@ export default async function Home() {
 
       <section className="w-full space-y-0">
         {allFeeds.map((feed, index) => (
-          <FeedSection key={index} feed={feed} />
+          <FeedSection key={index} feed={feed} limit={6} />
         ))}
       </section>
     </main>

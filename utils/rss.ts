@@ -229,6 +229,156 @@ const crewFeed: FeedSource = {
       publishedAt: "2023-11-13",
       editor: "Landon Pierce",
     },
+    {
+      slug: "crew-playoff-semis-preview",
+      title: "Crew prep for Eastern semis with tactical tweaks and travel planning",
+      articleUrl: "https://cbusnews.local/story/crew-playoff-semis-preview",
+      contentSnippet:
+        "Wilfried Nancy is tweaking training loads and shape ahead of the conference semifinal, balancing rest with sharpness.",
+      content: `<p>Columbus kicks off conference semifinal prep this week with closed-door sessions at the OhioHealth Performance Center. Nancy is experimenting with a narrow back three that tucks wingbacks infield, hoping to congest the middle against possession-heavy opponents.</p>
+<p>The staff has also shortened training blocks to 70 minutes, focusing on micro-drills that mimic high-press sequences. Nancy said the goal is to keep legs fresh without losing the rhythm that powered a Supporters’ Shield run.</p>
+<p>Veteran Darlington Nagbe told CityLine Sports the team feels “calm and clear” about what’s needed tactically. Video review highlighted how controlling second balls out of midfield remains the top priority.</p>
+<p>Travel logistics are already underway; the Crew won’t know their opponent until the Wild Card round concludes, but the club has charter contingencies booked for both Orlando and Atlanta.</p>
+<p>Supporters groups are organizing a send-off at the airport regardless of location, another sign of the city’s belief that Columbus can repeat as champions.</p>`,
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/null/eqwqgiioeed2yb2zo0qq.jpg",
+      publishedAt: "2023-11-18",
+      editor: "Miles Porter",
+    },
+    {
+      slug: "crew-roster-spotlight-ramirez-role",
+      title: "Christian Ramirez embraces super-sub role heading into postseason",
+      articleUrl: "https://cbusnews.local/story/crew-roster-spotlight-ramirez-role",
+      contentSnippet:
+        "Ramirez is thriving as a late-game closer, studying match film to exploit tired defenses in the final 20 minutes.",
+      content: `<p>Despite limited starts, Ramirez has become Columbus’ preferred closer, logging five goals in his last seven substitute appearances. He spends hours with assistant coach Kwame Ampadu reviewing where opposing center backs lose shape late in games.</p>
+<p>Ramirez says the key is patience: “When you come on against fatigued legs, you can’t rush the first touch. You hold your run, let the play develop, then pounce.”</p>
+<p>The striker is also mentoring academy forwards by showing how to read body language from defenders, noting when a shoulder drops or a head swivels away from the ball.</p>
+<p>Nancy appreciates the professionalism: “It’s not easy to accept reduced minutes after a career of starting, but Christian’s humility has lifted the locker room.”</p>
+<p>The Crew plan to keep Ramirez’s minutes in the 20-25 range per match, ensuring he’s fresh to capitalize on playoff chaos.</p>`,
+      imageUrl: "https://matternews.org/wp-content/uploads/2024/09/ramirez-celebration-1.jpg",
+      publishedAt: "2023-11-17",
+      editor: "Nick Wright",
+    },
+    {
+      slug: "crew-youth-clinics-recap",
+      title: "Crew youth clinics bring MLS Cup trophy tour to central Ohio schools",
+      articleUrl: "https://cbusnews.local/story/crew-youth-clinics-recap",
+      contentSnippet:
+        "Over 1,200 students across Franklin County participated in Crew clinics that paired skills sessions with literacy drives.",
+      content: `<p>The Crew Foundation wrapped its fall clinic tour with dual events at Eastmoor Academy and Worthington Kilbourne, pairing dribbling drills with a “Reading Goals” literacy push. Kids cycled between 20-minute skill stations and a Q&A with Crew 2 players.</p>
+<p>Foundation director Lisa Wheeler said the program’s biggest win was “showing kids the MLS Cup trophy up close.” Every stop included a photo station with the hardware, plus autograph tables.</p>
+<p>Nutritionists from OhioHealth also handed out snack guides, teaching families how to prep matchday meals without breaking the budget.</p>
+<p>The club logged more than 400 volunteer hours during the tour, and plans to expand to Marion and Delaware counties next spring.</p>
+<p>“Community is a pillar for us,” president Tim Bezbatchenko said. “Clinics remind us that the Crew’s reach is bigger than Lower.com Field.”</p>`,
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/col/image/upload/v1656726020/prd-league/f6coxdjqr37j4a0uij6h.jpg",
+      publishedAt: "2023-11-15",
+      editor: "Grant Whitfield",
+    },
+    {
+      slug: "crew-lower-field-upgrades-progress",
+      title: "Lower.com Field renovation update: safe-standing deck reaches steel milestone",
+      articleUrl: "https://cbusnews.local/story/crew-lower-field-upgrades-progress",
+      contentSnippet:
+        "The Nordecke expansion is on schedule, with new LED paneling and hospitality boxes slated for installation before spring friendlies.",
+      content: `<p>Construction crews topped out the steel frame for the new safe-standing deck this week, marking a key milestone toward a 5,500-capacity Nordecke. Project manager Alicia Torres said weather delays were minimal thanks to prefabricated sections.</p>
+<p>The Crew will begin installing LED fascia and premium loge boxes in December, giving stadium operators time to calibrate content before preseason events.</p>
+<p>Fans touring the site can already see how the double-decker capo stand will improve sightlines and atmosphere.</p>
+<p>Bezbatchenko noted that accessibility was factored in: “We built dedicated ramp access for supporters with mobility needs, ensuring everyone gets the same vantage point.”</p>
+<p>The project should wrap before the annual “Black & Gold Week” celebration in March, when the club plans a public unveiling.</p>`,
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/col/image/upload/v1645453855/prd-league/emipqdzjqj6ys3jt6lyv.jpg",
+      publishedAt: "2023-11-14",
+      editor: "Landon Pierce",
+    },
+    {
+      slug: "crew-goalkeeping-rotation",
+      title: "Patrick Schulte, Evan Bush detail how they share playoff prep duties",
+      articleUrl: "https://cbusnews.local/story/crew-goalkeeping-rotation",
+      contentSnippet:
+        "Schulte gets the nod, but veteran Evan Bush remains heavily involved in film review and scouting reports.",
+      content: `<p>Goalkeeper coach Jack Stern is splitting responsibilities between Patrick Schulte and Evan Bush. Schulte handles most on-pitch reps, while Bush leads nightly film sessions that break down opposition tendencies.</p>
+<p>Schulte appreciates the mentorship: “Evan sees things I miss mid-game. He points out when my starting position drifts too deep, and we correct it before the next match.”</p>
+<p>The staff also invites academy keeper Stanislav Lapkes into sessions to maintain the developmental pipeline.</p>
+<p>Nancy praised the group’s selflessness: “No one is worried about individual accolades. The room’s focus is keeping clean sheets when it matters.”</p>
+<p>Columbus will continue rotating in training but expects Schulte to start every playoff match barring injury.</p>`,
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/col/image/upload/v1652308787/prd-league/m7p4n4srlir956lk6zbl.jpg",
+      publishedAt: "2023-11-13",
+      editor: "Miles Porter",
+    },
+    {
+      slug: "crew-academy-signings-watch",
+      title: "Crew eye new homegrown deals as academy trio shines in MLS NEXT Fest",
+      articleUrl: "https://cbusnews.local/story/crew-academy-signings-watch",
+      contentSnippet:
+        "Midfielder Diego Luna, winger Malik Sillah, and fullback Owen Rinehart impressed scouts during MLS NEXT Fest scrimmages.",
+      content: `<p>Crew scouts returned from MLS NEXT Fest encouraged by three prospects: Luna (U-17), Sillah (U-19), and Rinehart (U-17). Each produced standout performances against LAFC and FC Dallas academies.</p>
+<p>General manager Issa Tall confirmed the club is preparing homegrown offers for at least two of the trio, hoping to lock them in before European teams swoop in.</p>
+<p>Sillah’s pace caught the eye of first-team staffers, while Rinehart’s overlapping runs and defensive recovery speed fit Nancy’s system.</p>
+<p>Luna has drawn comparisons to Aidan Morris because of his two-way engine and leadership; he captained Columbus to a 3-2 comeback win in the final scrimmage.</p>
+<p>The Crew plan to bring all three players to first-team preseason in January for further evaluation.</p>`,
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/default/6b08otqrp253yayzvea4.jpg",
+      publishedAt: "2023-11-12",
+      editor: "Grant Whitfield",
+    },
+    {
+      slug: "crew-offseason-schedule-release",
+      title: "Crew unveil offseason schedule featuring mixed friendlies and fan forums",
+      articleUrl: "https://cbusnews.local/story/crew-offseason-schedule-release",
+      contentSnippet:
+        "Columbus will host mixed-MLS/Liga MX friendlies and launch a town-hall series to expand fan input.",
+      content: `<p>The Crew announced a five-match friendly slate that includes Liga MX’s Pachuca and Premier League upstart Brighton during the January “Winter Classic” at Lower.com Field.</p>
+<p>In between matches, the club is hosting town halls at breweries around the city, giving fans a chance to ask questions directly to the front office.</p>
+<p>Head coach Wilfried Nancy will also appear at two events, sharing tactical insights and highlighting how supporters influence the atmosphere.</p>
+<p>Ticket packages go on sale next week, with partial proceeds benefiting the Crew Foundation’s literacy efforts.</p>
+<p>The schedule underscores Columbus’ ambition to remain a destination club during the offseason, keeping fans engaged even when MLS play pauses.</p>`,
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/col/image/upload/prd-league/scuglcqnmwtwz7nxuchen.jpg",
+      publishedAt: "2023-11-11",
+      editor: "Landon Pierce",
+    },
+    {
+      slug: "crew-supporter-charity-drive",
+      title: "Nordecke launches winter coat drive with players matching donations",
+      articleUrl: "https://cbusnews.local/story/crew-supporter-charity-drive",
+      contentSnippet:
+        "Supporters, front-office staff, and players teamed up to donate 1,500 coats to Columbus families.",
+      content: `<p>The Nordecke, in partnership with the Crew Foundation, organized a coat drive outside Nationwide Children’s Hospital, collecting over 1,500 items.</p>
+<p>Players including Darlington Nagbe and Sean Zawadzki matched donations, purchasing new coats and signing holiday cards for recipients.</p>
+<p>Organizers say the event will become an annual staple, reflecting the supporters’ desire to impact Columbus beyond matchday.</p>
+<p>“We want to show that the same passion we bring to the stands can lift our neighbors,” said Nordecke president Blake Reiber.</p>
+<p>Distribution begins next week through local schools and youth centers, timed to the first significant cold snap.</p>`,
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/default/zcwzt1nldufrovrtz3tw.jpg",
+      publishedAt: "2023-11-10",
+      editor: "Miles Porter",
+    },
+    {
+      slug: "crew-injury-notes-mensah-update",
+      title: "Jonathan Mensah addresses recovery timeline after offseason procedure",
+      articleUrl: "https://cbusnews.local/story/crew-injury-notes-mensah-update",
+      contentSnippet:
+        "Mensah is ahead of schedule following a minor knee procedure, eyeing a January return to full training.",
+      content: `<p>The veteran center back underwent a scope to clean up cartilage in early November and has spent the past two weeks rehabbing with club physios.</p>
+<p>Mensah told reporters he expects to rejoin full-contact drills by the second week of January, giving him ample time to integrate before CONCACAF play.</p>
+<p>Nancy praised the defender’s professionalism: “Jo’s leadership off the pitch is as valuable as his minutes on it. He keeps standards high even while rehabbing.”</p>
+<p>The Crew aren’t rushing his return given the depth at center back, but coaches are encouraged by his progress.</p>
+<p>Mensah plans to mentor younger defenders during the offseason, sharing video breakdowns and positional tips.</p>`,
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/default/xa5kwegdfy6htzrfwm2r.jpg",
+      publishedAt: "2023-11-09",
+      editor: "Grant Whitfield",
+    },
+    {
+      slug: "crew-travel-diary-west-coast",
+      title: "Inside the Crew’s travel diary: how Columbus handles cross-country swings",
+      articleUrl: "https://cbusnews.local/story/crew-travel-diary-west-coast",
+      contentSnippet:
+        "Performance staff share how they manage sleep, nutrition, and training when the Crew face West Coast doubleheaders.",
+      content: `<p>Columbus finished its final West Coast swing of the regular season, and performance director Aiden Mangan detailed the logistics: charter flights scheduled at off-peak hours, sleep pods on board, and curated menus from local chefs.</p>
+<p>Players received personalized hydration plans before each match, and the Crew brought portable recovery tubs to hotel rooms.</p>
+<p>“Little things like blackout curtains and limiting screen time make a big difference,” Mangan said.</p>
+<p>The staff is compiling data from wearable tech to improve future travel schedules, hoping to shave down fatigue when back-to-back road matches are unavoidable.</p>
+<p>Nancy believes these marginal gains help Columbus close games stronger, especially in the final ten minutes.</p>`,
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-prd/default/uj2hkjvkhgxz5rl7tuem.jpg",
+      publishedAt: "2023-11-08",
+      editor: "Landon Pierce",
+    },
   ],
 };
 
@@ -283,6 +433,81 @@ const cbjFeed: FeedSource = {
       imageUrl: "https://pbs.twimg.com/media/G5127zpW8AAOHYz.jpg",
       publishedAt: "2023-11-13",
       editor: "Cole Matthews",
+    },
+    {
+      slug: "cbj-defense-pairings-shift",
+      title: "Blue Jackets shuffle defense pairings to spark breakouts",
+      articleUrl: "https://cityline.local/story/cbj-defense-pairings-shift",
+      contentSnippet:
+        "Associate coach Mike Babcock Jr. reworked the blue line pairings in search of cleaner exits and more offense.",
+      content: `<p>Columbus debuted new pairings at practice this week, moving Zach Werenski alongside Jake Bean while pushing Denton Mateychuk next to Erik Gudbranson. The goal: better puck movement on the left side and more bite on the right.</p>
+<p>Vincent said the changes could be short term but believes shaking up the rhythm will re-energize a group that struggled to connect first passes.</p>
+<p>Players welcomed the tweaks; Werenski told CityLine Sports he enjoys playing with a mobile partner like Bean who can activate up ice.</p>
+<p>Mateychuk, meanwhile, is taking cues from Gudbranson on how to close gaps physically without taking penalties.</p>
+<p>Columbus will test the new setup against the Rangers later this week, then decide whether to keep rolling with it.</p>`,
+      imageUrl: "https://s3951.pcdn.co/wp-content/uploads/2025/03/Blue-Jackets-Celebrate-1200x800.jpg",
+      publishedAt: "2023-11-16",
+      editor: "Grant Whitfield",
+    },
+    {
+      slug: "cbj-practice-notebook",
+      title: "Practice notebook: Fantilli line dominates small-area battles",
+      articleUrl: "https://cityline.local/story/cbj-practice-notebook",
+      contentSnippet:
+        "Adam Fantilli centered a new line with Kirill Marchenko and Kent Johnson, and the trio lit up Columbus' practice rink.",
+      content: `<p>The Jackets’ top line looked lively in Tuesday’s session, dominating small-area battles and scoring twice in the scrimmage portion. Vincent praised their communication, noting Fantilli’s growing chemistry with Marchenko.</p>
+<p>Kent Johnson is also thriving on the line, using his creativity to set up backdoor chances. “We’re trying to keep things simple—quick give-and-go, then attack,” Johnson said.</p>
+<p>The trio stayed late to work on net-front tips with assistant coach Jared Boll, focusing on power-play entries.</p>
+<p>With the Islanders matchup looming, Columbus hopes the unit can spark much-needed five-on-five offense.</p>
+<p>The line will start Thursday, but Vincent said leash length depends on defensive responsibility: “They have to stay connected without the puck.”</p>`,
+      imageUrl: "https://media.bizj.us/view/img/10256357/blue-jackets-capitals-18.jpg",
+      publishedAt: "2023-11-15",
+      editor: "Miles Porter",
+    },
+    {
+      slug: "cbj-prospect-roundup-europe",
+      title: "Prospect roundup: Brindley leads Finland tourney, Tarasov rehabs in Cleveland",
+      articleUrl: "https://cityline.local/story/cbj-prospect-roundup-europe",
+      contentSnippet:
+        "Columbus prospects continue to impress overseas and in the AHL, giving the Jackets depth options if injuries strike.",
+      content: `<p>Gavin Brindley put up six points in four games at the Karjala Cup, showcasing his playmaking on the big ice. Player development coach Greg Campbell said Brindley’s poise “makes him look NHL-ready even against veteran internationals.”</p>
+<p>In Cleveland, Daniil Tarasov is on a three-game win streak, posting a .926 save percentage as he rehabs from a mid-October injury.</p>
+<p>Defenseman David Jiricek is also logging heavy minutes with the Monsters and could earn a recall once Columbus needs a right-shot blueliner.</p>
+<p>“The depth is encouraging,” Vincent said. “We know reinforcements are performing, which takes pressure off the top NHL roster.”</p>
+<p>The Jackets will continue rotating prospects into practice skates to keep them familiar with the system.</p>`,
+      imageUrl: "https://www.dispatch.com/gcdn/authoring/authoring-images/2024/04/17/NCOD/73348859007-cbj-0416-carolina-022.JPG?width=660&height=440&fit=crop&format=pjpg&auto=webp",
+      publishedAt: "2023-11-14",
+      editor: "Nick Wright",
+    },
+    {
+      slug: "cbj-community-outreach",
+      title: "Blue Jackets hold Nationwide Arena blood drive with record turnout",
+      articleUrl: "https://cityline.local/story/cbj-community-outreach",
+      contentSnippet:
+        "More than 700 donors turned out for the Jackets’ annual blood drive, with players meeting fans between sessions.",
+      content: `<p>The Jackets, in partnership with the American Red Cross, hosted their largest blood drive yet inside Nationwide Arena’s club level. Over 700 donors participated, surpassing last year’s mark by 20%.</p>
+<p>Players Boone Jenner and Sean Kuraly greeted fans, signed memorabilia, and thanked donors for supporting local hospitals.</p>
+<p>The event also featured educational booths about concussion research and youth hockey safety, aligning with the franchise’s community pillars.</p>
+<p>Red Cross officials said the donations will help cover holiday-season shortages across Ohio.</p>
+<p>The club plans to repeat the drive in February, hoping to push the event beyond 1,000 donors.</p>`,
+      imageUrl: "https://www.nationwidearena.com/assets/img/CBJ-crowd-in-bowl_CBJ-0774-8cd2bdda1b.jpg",
+      publishedAt: "2023-11-13",
+      editor: "Grant Whitfield",
+    },
+    {
+      slug: "cbj-film-room-defense",
+      title: "Film Room: How Columbus cleaned up net-front coverage in four games",
+      articleUrl: "https://cityline.local/story/cbj-film-room-defense",
+      contentSnippet:
+        "Assistant coach Steve McCarthy walked CityLine Sports through the tweaks that stabilized the Jackets’ slot defense.",
+      content: `<p>Columbus allowed just five high-danger slot chances over its last four games, a dramatic improvement from early-season struggles. Assistant coach Steve McCarthy credits better stick positioning and shorter shifts.</p>
+<p>The Jackets started staggering forwards higher in the defensive zone to deter cross-ice passes, forcing shooters into the perimeter.</p>
+<p>McCarthy also emphasizes communication: “When our centermen call out assignments, everyone rotates in sync. It sounds simple, but trust is the biggest fix.”</p>
+<p>The staff will keep monitoring net-front box-outs as the schedule tightens. “We can’t relax,” McCarthy said. “Details matter more once teams scout you.”</p>
+<p>Expect Columbus to keep rolling video sessions where players grade each other’s positioning, maintaining accountability.</p>`,
+      imageUrl: "https://s3951.pcdn.co/wp-content/uploads/2025/03/Blue-Jackets-Celebrate-1200x800.jpg",
+      publishedAt: "2023-11-12",
+      editor: "Miles Porter",
     },
   ],
 };
