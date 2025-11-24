@@ -21,6 +21,33 @@ const ohioStateFeed: FeedSource = {
     "Daily CityLine Sports coverage of Ohio State football, basketball, wrestling, soccer, and recruiting as of November 16, 2023.",
   items: [
     {
+      slug: "osu-defense-dominates-nebraska",
+      title: "Buckeye defense stacks five sacks, shuts down Nebraska on the road",
+      articleUrl: "https://cbusnews.local/story/osu-defense-dominates-nebraska",
+      contentSnippet:
+        "Ohio State’s front seven buried the Huskers, holding them to 214 total yards and forcing three turnovers in Lincoln.",
+      content: `<p>Top-ranked Ohio State strengthened its grip on the Big Ten and preserved its undefeated season with a commanding 42–9 victory over Rutgers at Ohio Stadium on November 22, 2025. The win lifted the Buckeyes to 11–0 overall and 8–0 in conference play, keeping their postseason ambitions squarely on track.
+Rutgers, meanwhile, fell to 5–6 (2–6 Big Ten) and now faces a must-win scenario in its final regular-season game to achieve bowl eligibility.
+Slow Start, Strong Finish
+The Buckeyes led just 14–3 at halftime before exploding for 28 second-half points, putting the game firmly out of reach. Ohio State’s rushing attack proved overwhelming, piling up 254 yards on the ground, a performance that showcased the team's evolving run-first identity.
+Despite missing their top two wide receivers, Ohio State’s offense rarely looked unsettled—an encouraging sign heading into the final week of the regular season.
+Ohio State’s Standout Performers
+Quarterback Julian Sayin delivered another poised showing, completing 13 of 19 passes for 157 yards and two touchdowns.
+Running back Bo Jackson powered the ground game with 110 yards and two scores, while tight end Max Klare continued his breakout season with seven catches for 105 yards and a touchdown.
+Ohio State’s offensive line dominated the line of scrimmage, helping the Buckeyes average over 7 yards per carry, a statistic that underscores their growing confidence and identity as a run-heavy powerhouse.
+Rutgers Struggles to Gain Traction
+Rutgers’ offense never found rhythm against Ohio State’s suffocating defense. The Scarlet Knights managed just 147 total yards and crossed into scoring range only a handful of times.
+Quarterback Athan Kaliakmanis completed 10 of 20 passes for 81 yards, unable to consistently challenge Ohio State’s secondary.
+While Rutgers’ defense held strong early, it ultimately couldn’t contain the Buckeyes’ depth and physicality for four quarters.
+What the Win Means
+For Ohio State, the victory keeps them on the inside track for a Big Ten title and a College Football Playoff berth. With momentum building and a balanced offense emerging—even with key receivers sidelined—the Buckeyes appear poised for a postseason run.
+For Rutgers, the challenge now becomes regrouping quickly. One final opportunity remains to secure bowl eligibility and build confidence heading into the offseason.</p>
+<p>The win keeps Ohio State unbeaten heading into the marquee matchup with Michigan, with the defense carrying confidence from its most complete road performance of the season.</p>`,
+      imageUrl: "https://www.dispatch.com/gcdn/presto/2022/11/21/NCOD/a067cd85-bf57-46e2-a58c-a47cfcafb2a5-nhl-_blue_jackets_vs._panthers_js_0042.jpg",
+      publishedAt: "2023-11-18",
+      editor: "Miles Porter",
+    },
+    {
       slug: "osu-notre-dame-statement-win",
       title: "Ohio State outlasts Notre Dame in statement win behind late surge",
       articleUrl: "https://cbusnews.local/story/osu-notre-dame-statement-win",
@@ -386,6 +413,20 @@ const cbjFeed: FeedSource = {
   source: "Columbus Blue Jackets",
   description: "CityLine Sports coverage of the Union Blue as they chase a wild-card berth and develop the next wave.",
   items: [
+    {
+      slug: "cbj-gaudreau-heating-up",
+      title: "Johnny Gaudreau sparks Jackets with eight-point week",
+      articleUrl: "https://cityline.local/story/cbj-gaudreau-heating-up",
+      contentSnippet:
+        "Moved to the bumper spot on the power play, Gaudreau piled up three goals and five assists over four games.",
+      content: `<p>Blue Jackets winger Johnny Gaudreau looks refreshed after a brief line shuffle, thriving between Adam Fantilli and Kirill Marchenko. He scored in three straight contests and logged a pair of primary assists on the man advantage.</p>
+<p>Coach Pascal Vincent credited quicker puck movement: "Johnny is catching pucks in stride and attacking downhill instead of waiting on the half wall." The top unit is now 5-for-14 since the change.</p>
+<p>Gaudreau said the chemistry is growing: "We’re reading off each other and keeping our feet moving. When we stay connected, the chances come."</p>
+<p>Columbus faces a back-to-back against the Islanders and Devils, and Vincent plans to keep the trio together to maintain momentum.</p>`,
+      imageUrl: "https://www.dispatch.com/gcdn/presto/2022/11/21/NCOD/a067cd85-bf57-46e2-a58c-a47cfcafb2a5-nhl-_blue_jackets_vs._panthers_js_0042.jpg",
+      publishedAt: "2023-11-18",
+      editor: "Grant Whitfield",
+    },
     {
       slug: "cbj-fantilli-injury-return",
       title: "Adam Fantilli expected back this week after ankle tweak",
