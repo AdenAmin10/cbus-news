@@ -43,7 +43,7 @@ What the Win Means
 For Ohio State, the victory keeps them on the inside track for a Big Ten title and a College Football Playoff berth. With momentum building and a balanced offense emerging—even with key receivers sidelined—the Buckeyes appear poised for a postseason run.
 For Rutgers, the challenge now becomes regrouping quickly. One final opportunity remains to secure bowl eligibility and build confidence heading into the offseason.</p>
 <p>The win keeps Ohio State unbeaten heading into the marquee matchup with Michigan, with the defense carrying confidence from its most complete road performance of the season.</p>`,
-      imageUrl: "https://www.dispatch.com/gcdn/presto/2022/11/21/NCOD/a067cd85-bf57-46e2-a58c-a47cfcafb2a5-nhl-_blue_jackets_vs._panthers_js_0042.jpg",
+      imageUrl: "https://ohiostatebuckeyes.com/images/2025/11/22/DSC07850.jpg",
       publishedAt: "2023-11-18",
       editor: "Miles Porter",
     },
